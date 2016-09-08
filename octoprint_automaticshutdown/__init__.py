@@ -13,7 +13,7 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
 							  octoprint.plugin.StartupPlugin):
 
 	def __init__(self):
-		self._automatic_shutdown_enabled = False
+		self._automatic_shutdown_enabled = True
 		self._timeout_value = None
 		self._timer = None
 
