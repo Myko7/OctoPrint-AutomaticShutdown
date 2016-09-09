@@ -14,7 +14,7 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
 
 	def __init__(self):
 		self._automatic_shutdown_enabled = True
-		self._timeout_value = None
+		self._timeout_value = 10
 		self._timer = None
 
 	def get_assets(self):
